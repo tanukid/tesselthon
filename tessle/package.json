@@ -1,0 +1,27 @@
+{
+  "name": "tessle",
+  "version": "0.0.0",
+  "description": "Tessel project",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "www.github.com/tessel/t2-cli",
+  "keywords": [
+    "Tessel"
+  ],
+  "license": "MIT",
+  "readme": "A bare bones Tessel 2 blinky script.",
+  "dependencies": {
+    "@google-cloud/vision": "^0.12.0",
+    "ambient-attx4": "^0.2.11",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "nunjucks": "^3.0.1",
+    "request": "^2.83.0",
+    "socket.io": "^2.0.4",
+    "tessel": "^0.3.25"
+  }
+}
